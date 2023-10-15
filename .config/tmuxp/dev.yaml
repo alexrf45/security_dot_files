@@ -1,0 +1,21 @@
+session_name: dev
+windows:
+  - window_name: dev
+    layout: tiled
+    panes:
+      - cd ~/projects/ && vim .
+      - cd ~/projects/
+
+  - window_name: status
+    layout: tiled
+    panes:
+      - btop
+  - window_name: notes
+    layout: tiled
+    panes:
+      -
+      -
+  - window_name: extra
+    layout: tiled
+    panes:
+      -
