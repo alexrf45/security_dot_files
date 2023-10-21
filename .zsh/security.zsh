@@ -18,4 +18,4 @@ alias ciphey='docker run -it --rm remnux/ciphey'
 alias neo4j='docker-compose -f ~/tools/bloodhound-dev/docker-compose.yaml up -d'
 alias neo4j-down='docker-compose -f ~/tools/bloodhound-dev/docker-compose.yaml down'
 alias bloodhound='/usr/local/bin/bloodhound-linux/./BloodHound --no-sandbox &'
-
+alias caido='docker run --rm -p 8080:8080 caido/caido:latest'
