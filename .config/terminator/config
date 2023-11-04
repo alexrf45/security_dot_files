@@ -1,25 +1,9 @@
 [global_config]
-  borderless = True
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
   always_split_with_profile = True
 [keybindings]
 [profiles]
   [[default]]
-  [[Catppuccin_Mocha]]
-    background_color = "#1e1e2e"
-    background_darkness = 0.94
-    background_type = transparent
-    cursor_shape = ibeam
-    cursor_fg_color = "#000000"
-    cursor_bg_color = "#aaaaaa"
-    cursor_color_default = False
-    font = JetBrains Mono NL Bold Italic 13
-    foreground_color = "#ffffff"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#45475a:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#3d3846:#585b70:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#585b70"
-    use_system_font = False
   [[Report]]
     background_color = "#ffffff"
     cursor_shape = underline
@@ -46,5 +30,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = Catppuccin_Mocha
+      profile = CTF
 [plugins]

@@ -64,4 +64,3 @@ autoload -Uz compinit && compinit
 complete -C '/usr/local/bin/aws_completer' aws
 
 eval "$(starship init zsh)"
-eval "$(starship init zsh)"

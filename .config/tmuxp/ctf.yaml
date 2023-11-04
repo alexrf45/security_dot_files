@@ -1,0 +1,20 @@
+session_name: ctf
+windows:
+  - window_name: kali
+    layout: tiled
+    panes:
+      - cd ~/ctf-repo/HTB/
+
+  - window_name: status
+    layout: tiled
+    panes:
+      - watch docker container ls
+  - window_name: extra
+    layout: tiled
+    panes:
+      -
+      -
+  - window_name: vpn
+    layout: tiled
+    panes:
+      - htb
