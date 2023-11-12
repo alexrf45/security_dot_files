@@ -15,7 +15,6 @@ bindkey -v
 
 #source aliases and env
 source "$HOME/.zprofile"
-#source "$HOME/.zsh/aliases.zsh"
 
 for file in $HOME/.zsh/*.zsh; do
     source "$file"
@@ -24,18 +23,6 @@ done
 fpath=(/tmp/zsh-completions/src $fpath)
 
 source "$HOME/.zsh/kali.sh"
-
-#displays saying in every new prompt
-
-echo "
-   __  ___                  
-  / _|/ _ \ _ __  _____   _ 
- | |_| | | | '_ \|_  / | | |
- |  _| |_| | | | |/ /| |_| |
- |_|  \___/|_| |_/___|\__, |
-                      |___/ 
-"
-
 
 #persistant ssh agent
 eval $(ssh-agent) &> /dev/null
@@ -63,5 +50,4 @@ autoload -Uz compinit && compinit
 
 complete -C '/usr/local/bin/aws_completer' aws
 
-eval "$(starship init zsh)"
 eval "$(starship init zsh)"
