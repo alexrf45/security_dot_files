@@ -97,7 +97,7 @@ bindsym $mod+minus scratchpad show
 set $ws1 "1:   Workspace"
 set $ws2 "2:   Firefox"
 set $ws3 "3:   Obsidian"
-set $ws4 "4:   Spotify"
+set $ws4 "4:   Extra 1"
 set $ws5 "5:   Extra 2"
 
 # switch to workspace
@@ -194,9 +194,7 @@ exec_always --no-startup-id pulseaudio --start
 
 exec_always --no-startup-id vmware-user
 
-exec_always --no-startup-id feh --no-fehbg --bg-fill $HOME/.config/pictures/black-kali.jpg
-
-exec_always --no-startup-id picom -b --config ~/.config/picom.conf
+exec_always --no-startup-id feh --no-fehbg --bg-fill $HOME/.config/pictures/pastel-window.png
 
 exec_always --no-startup-id xrandr -s 1920x1080
 
