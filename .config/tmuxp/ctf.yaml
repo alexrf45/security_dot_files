@@ -1,15 +1,15 @@
 session_name: ctf
 windows:
-  - window_name: kali
+  - window_name: recon
     layout: tiled
     panes:
       - cd ~/ctf-repo/HTB/
 
-  - window_name: status
+  - window_name: access/pivot
     layout: tiled
     panes:
       - watch docker container ls
-  - window_name: extra
+  - window_name: privesc
     layout: tiled
     panes:
       -

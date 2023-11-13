@@ -23,3 +23,5 @@ alias s3-backend-delete='~/.config/scripts/./s3-backend-delete.sh'
 
 
 alias s3-create='python3 ~/.config/scripts/s3.py'
+
+alias obsidian-backup-s3='aws s3 sync ~/sec-notes/notes/. s3://sec-notes-bckup'
