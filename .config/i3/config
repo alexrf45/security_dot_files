@@ -165,7 +165,7 @@ mode "resize" {
  }
 
 bar {
-    mode dock
+    mode hide
     hidden_state hide
     modifier mod4
     status_command i3blocks -c ~/.config/i3/i3blocks.conf
@@ -194,7 +194,7 @@ exec_always --no-startup-id pulseaudio --start
 
 exec_always --no-startup-id vmware-user
 
-exec_always --no-startup-id feh --no-fehbg --bg-fill $HOME/.config/pictures/pastel-window.png
+exec_always --no-startup-id feh --no-fehbg --bg-fill $HOME/.config/pictures/black-kali.jpg
 
 exec_always --no-startup-id xrandr -s 1920x1080
 
