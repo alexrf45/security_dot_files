@@ -4,6 +4,7 @@ alias reload='. ~/.zshrc'
 alias update='sudo pacman -Syyu'
 alias i='sudo pacman -S'
 alias vim='nvim'
+alias hx='helix'
 alias tree-overview='tree -CDL 2'
 alias tree-1='tree -CL 2'
 

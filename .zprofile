@@ -2,9 +2,9 @@ export MINIPLUG_HOME="$HOME/.zsh/plugins"
 
 PATH="$PATH:/home/f0nzy/.local/bin:/home/f0nzy/.pulumi/bin:$HOME/.cargo/bin/"
 
-export EDITOR=nvim
+export EDITOR=helix
 export TERM='xterm-256color'
-export VISUAL=nvim
+export VISUAL=helix
 
 
 #RUST
