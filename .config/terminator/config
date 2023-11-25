@@ -12,19 +12,33 @@
     foreground_color = "#000000"
     show_titlebar = False
     use_system_font = False
-  [[Hybrid]]
+  [[DimmedMonokai]]
     background_darkness = 0.94
     background_type = transparent
     cursor_shape = ibeam
-    cursor_fg_color = "#ffffff"
-    cursor_bg_color = "#000000"
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#aaaaaa"
     cursor_color_default = False
     font = Monospace Bold 13
-    foreground_color = "#b7bcba"
+    foreground_color = "#b9bcba"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
-    palette = "#2a2e33:#b84d51:#b3bf5a:#e4b55e:#6e90b0:#a17eac:#7fbfb4:#b5b9b6:#1d1f22:#8d2e32:#798431:#e58a50:#4b6b88:#6e5079:#4d7b74:#5a626a"
+    palette = "#3a3d43:#be3f48:#879a3b:#c5a635:#4f76a1:#855c8d:#578fa4:#b9bcba:#888987:#fb001f:#0f722f:#c47033:#186de3:#fb0067:#2e706d:#fdffb9"
+    use_system_font = False
+  [[Catppuccin_Mocha]]
+    background_darkness = 0.94
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#aaaaaa"
+    cursor_color_default = False
+    font = Monospace Bold 13
+    foreground_color = "#cdd6f4"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#45475a:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#bac2de:#585b70:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#a6adc8"
     use_system_font = False
 [layouts]
   [[default]]
@@ -34,5 +48,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = Hybrid
+      profile = DimmedMonokai
 [plugins]

@@ -26,8 +26,6 @@ done
 
 fpath=(/tmp/zsh-completions/src $fpath)
 
-source "$HOME/.zsh/kali.sh"
-
 #persistant ssh agent
 eval $(ssh-agent) &> /dev/null
 
@@ -38,11 +36,11 @@ ssh-add ~/.ssh/homelab &> /dev/null
 #miniplug zsh
 source "$HOME/.zsh/plugins/miniplug.zsh"
 
-
 # Define a plugin
 miniplug plugin 'zsh-users/zsh-syntax-highlighting'
 miniplug plugin 'zsh-users/zsh-autosuggestions'
 miniplug plugin 'zsh-users/zsh-completions'
+miniplug theme 'dracula/zsh'
 
 # Source plugins
 miniplug load
@@ -54,4 +52,3 @@ autoload -Uz compinit && compinit
 
 complete -C '/usr/local/bin/aws_completer' aws
 
-eval "$(starship init zsh)"

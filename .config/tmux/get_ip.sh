@@ -1,6 +1,5 @@
-#!/bin/bash
-
 #!/bin/sh
+
 # Prints just the ip addresses for given interfaces.
 
 get_ip() {
