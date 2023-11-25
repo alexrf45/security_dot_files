@@ -20,6 +20,10 @@ for file in $HOME/.zsh/*.zsh; do
     source "$file"
 done
 
+for file in $HOME/.zsh/*.sh; do
+    source "$file"
+done
+
 fpath=(/tmp/zsh-completions/src $fpath)
 
 source "$HOME/.zsh/kali.sh"

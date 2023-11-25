@@ -8,7 +8,7 @@ windows:
   - window_name: access/pivot
     layout: tiled
     panes:
-      - watch docker container ls
+      -
   - window_name: privesc
     layout: tiled
     panes:
