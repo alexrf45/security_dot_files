@@ -12,27 +12,12 @@
     foreground_color = "#000000"
     show_titlebar = False
     use_system_font = False
-  [[Gruvbox Dark]]
-    background_color = "#1e1e1e"
+  [[Rippedcasts]]
     background_darkness = 0.94
     background_type = transparent
     cursor_shape = ibeam
     cursor_fg_color = "#000000"
     cursor_bg_color = "#aaaaaa"
-    cursor_color_default = False
-    font = FiraCode Nerd Font Propo Bold 13
-    foreground_color = "#e6d4a3"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
-    use_system_font = False
-  [[Rippedcasts]]
-    background_darkness = 0.94
-    background_type = transparent
-    cursor_shape = ibeam
-    cursor_fg_color = "#222222"
-    cursor_bg_color = "#7f7f7f"
     cursor_color_default = False
     font = FiraCode Nerd Font Propo Bold 13
     foreground_color = "#ffffff"
