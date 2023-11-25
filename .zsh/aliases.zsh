@@ -3,13 +3,11 @@
 alias reload='. ~/.zshrc'
 alias update='sudo pacman -Syyu'
 alias i='sudo pacman -S'
-alias vim='helix'
 alias tree-overview='tree -CDL 2'
 alias tree-1='tree -CL 2'
 alias lock='cmatrix -r'
 
 #rust binaries
-alias ls='lsd'
 alias cat='bat'
 alias speedtest='speedtest-rs'
 alias du="dust"

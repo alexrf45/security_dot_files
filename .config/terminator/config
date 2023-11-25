@@ -12,19 +12,19 @@
     foreground_color = "#000000"
     show_titlebar = False
     use_system_font = False
-  [[Rippedcasts]]
+  [[Hybrid]]
     background_darkness = 0.94
     background_type = transparent
     cursor_shape = ibeam
-    cursor_fg_color = "#000000"
-    cursor_bg_color = "#aaaaaa"
+    cursor_fg_color = "#ffffff"
+    cursor_bg_color = "#000000"
     cursor_color_default = False
-    font = FiraCode Nerd Font Propo Bold 13
-    foreground_color = "#ffffff"
+    font = Monospace Bold 13
+    foreground_color = "#b7bcba"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
-    palette = "#000000:#cdaf95:#a8ff60:#bfbb1f:#75a5b0:#ff73fd:#5a647e:#bfbfbf:#666666:#eecbad:#bcee68:#e5e500:#86bdc9:#e500e5:#8c9bc4:#e5e5e5"
+    palette = "#2a2e33:#b84d51:#b3bf5a:#e4b55e:#6e90b0:#a17eac:#7fbfb4:#b5b9b6:#1d1f22:#8d2e32:#798431:#e58a50:#4b6b88:#6e5079:#4d7b74:#5a626a"
     use_system_font = False
 [layouts]
   [[default]]
@@ -34,5 +34,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = Rippedcasts
+      profile = Hybrid
 [plugins]
