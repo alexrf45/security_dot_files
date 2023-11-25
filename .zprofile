@@ -4,10 +4,10 @@ PATH="$PATH:$HOME/.local/bin:$HOME/.pulumi/bin:$HOME/.cargo/bin/"
 
 
 #dracula zsh
-export DRACULA_DISPLAY_TIME=1
+export DRACULA_DISPLAY_TIME=0
 export DRACULA_TIME_FORMAT=" [%a %b %d %Y] %R "
+#export DRACULA_TIME_FORMAT=" %R"
 export DRACULA_CUSTOM_VARIABLE=$AWS_VAULT
-#export DRACULA_TIME_FORMAT=" %R "
 export DRACULA_DISPLAY_NEW_LINE=1
 export DRACULA_ARROW_ICON="$ "
 

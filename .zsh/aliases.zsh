@@ -10,7 +10,6 @@ alias lock='cmatrix -r'
 #rust binaries
 alias cat='bat'
 alias speedtest='speedtest-rs'
-alias du="dust"
 alias webserver="miniserve -p 8001"
 
 #tmux
