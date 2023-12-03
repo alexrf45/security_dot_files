@@ -6,6 +6,7 @@ alias i='sudo pacman -S'
 alias tree-overview='tree -CDL 2'
 alias tree-1='tree -CL 2'
 alias lock='cmatrix -r'
+alias vim='nvim'
 
 #rust binaries
 alias cat='bat'

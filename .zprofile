@@ -13,9 +13,9 @@ export DRACULA_ARROW_ICON="$ "
 
 
 
-export EDITOR=vim
+export EDITOR=nvim
 export TERM='xterm-256color'
-export VISUAL=vim
+export VISUAL=nvim
 export TMUX_SCRIPT="$HOME/.config/tmux"
 
 #RUST
