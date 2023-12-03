@@ -57,7 +57,9 @@ alias dock-down='docker-compose down'
 alias sec='/usr/bin/git --git-dir=/home/$USER/.cfg/ --work-tree=/home/$USER'
 
 
-
+timestamp() {
+    date +%Y%m%d-%T ;
+}
 
 
 
