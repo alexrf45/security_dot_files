@@ -48,7 +48,7 @@
     cursor_fg_color = "#000000"
     cursor_bg_color = "#aaaaaa"
     cursor_color_default = False
-    font = UbuntuMono Nerd Font Mono Bold 14
+    font = Iosevka Nerd Font Bold 13
     foreground_color = "#f8f8f2"
     show_titlebar = False
     scrollbar_position = hidden
@@ -63,5 +63,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = CTF
+      profile = Dracula
 [plugins]

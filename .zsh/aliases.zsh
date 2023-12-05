@@ -9,6 +9,7 @@ alias lock='cmatrix -r'
 alias vim='nvim'
 
 #rust binaries
+alias ls='lsd -la'
 alias cat='bat'
 alias speedtest='speedtest-rs'
 alias webserver="miniserve -p 8001"
