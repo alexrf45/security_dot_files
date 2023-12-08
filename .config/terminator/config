@@ -55,6 +55,21 @@
     scrollback_infinite = True
     palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
     use_system_font = False
+  [[tokyonight]]
+    background_color = "#1a1b26"
+    background_darkness = 0.94
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#c0caf5"
+    cursor_color_default = False
+    font = Iosevka Nerd Font Bold 13
+    foreground_color = "#c0caf5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#15161e:#f7768e:#9ece6a:#e0af68:#7aa2f7:#bb9af7:#7dcfff:#a9b1d6:#414868:#f7768e:#9ece6a:#e0af68:#7aa2f7:#bb9af7:#7dcfff:#c0caf5"
+    use_system_font = False
 [layouts]
   [[default]]
     [[[window0]]]
