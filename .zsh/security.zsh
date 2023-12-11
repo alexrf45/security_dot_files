@@ -15,7 +15,9 @@ alias root-domains='awk -F\/ 'FNR!=1 {print $1}' download_csv.csv | cut -d "," -
 #tools
 alias bfac='docker run -it --rm secsi/bfac --url $1'
 alias ciphey='docker run -it --rm remnux/ciphey'
-alias neo4j='docker-compose -f ~/tools/bloodhound-dev/docker-compose.yaml up -d'
-alias neo4j-down='docker-compose -f ~/tools/bloodhound-dev/docker-compose.yaml down'
-alias bloodhound='/usr/local/bin/bloodhound-linux/./BloodHound --no-sandbox &'
 alias caido='docker run --rm -p 8080:8080 caido/caido:latest'
+alias bloodhound='docker-compose --env-file $HOME/ctf-repo/.env -f $HOME/.local/tools/bloodhound-dev/docker-compose.yml up -d'
+alias bloodhound-down='docker-compose --env-file $HOME/ctf-repo/.env -f $HOME/.local/tools/bloodhound-dev/docker-compose.yml down'
+
+
+
