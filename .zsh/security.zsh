@@ -18,6 +18,6 @@ alias ciphey='docker run -it --rm remnux/ciphey'
 alias caido='docker run --rm -p 8080:8080 caido/caido:latest'
 alias bloodhound='docker-compose --env-file $HOME/ctf-repo/.env -f $HOME/.local/tools/bloodhound-dev/docker-compose.yml up -d'
 alias bloodhound-down='docker-compose --env-file $HOME/ctf-repo/.env -f $HOME/.local/tools/bloodhound-dev/docker-compose.yml down'
-
-
+alias cme='nxc'
+alias evil-winrm='docker run --rm -it oscarakaelvis/evil-winrm'
 

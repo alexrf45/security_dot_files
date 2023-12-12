@@ -12,20 +12,20 @@
     foreground_color = "#000000"
     show_titlebar = False
     use_system_font = False
-  [[Twilight]]
-    background_color = "#141414"
+  [[Afterglow]]
+    background_color = "#161414"
     background_darkness = 0.94
     background_type = transparent
     cursor_shape = ibeam
     cursor_fg_color = "#000000"
-    cursor_bg_color = "#ffffff"
+    cursor_bg_color = "#aaaaaa"
     cursor_color_default = False
-    font = UbuntuMono Nerd Font Propo Bold 13
-    foreground_color = "#ffffd4"
+    font = Iosevka Nerd Font Propo Bold Oblique 12
+    foreground_color = "#d0d0d0"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
-    palette = "#141414:#c06d44:#afb97a:#c2a86c:#44474a:#b4be7c:#778385:#ffffd4:#262626:#de7c4c:#ccd88c:#e2c47e:#5a5e62:#d0dc8e:#8a989b:#ffffd4"
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
     use_system_font = False
 [layouts]
   [[default]]
@@ -35,5 +35,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = Twilight
+      profile = Afterglow
 [plugins]
