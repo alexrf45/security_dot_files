@@ -24,6 +24,10 @@ for file in $HOME/.zsh/*.sh; do
     source "$file"
 done
 
+#logging
+precmd() { eval 'if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history -f)" >> ~/.logs/zsh-history-$(date "+%Y-%m-%d").log; fi' }
+
+
 fpath=(/tmp/zsh-completions/src $fpath)
 
 #persistant ssh agent
@@ -45,6 +49,7 @@ miniplug theme 'dracula/zsh'
 # Source plugins
 miniplug load
 
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 
 #bash-completion
 autoload bashcompinit && bashcompinit
