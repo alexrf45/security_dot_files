@@ -10,14 +10,26 @@
 --   end,
 -- }
 
+-- return {
+--   "rebelot/kanagawa.nvim",
+--   opts = {
+--     transparent_background = "true",
+--     terminal_colors = true,
+--   },
+--   config = function(_, opts)
+--     require("kanagawa").setup(opts) -- calling setup is optional
+--     vim.cmd([[colorscheme kanagawa-dragon]])
+--   end,
+-- }
+--
 return {
-  "rebelot/kanagawa.nvim",
+  "Mofiqul/dracula.nvim",
   opts = {
     transparent_background = "true",
     terminal_colors = true,
   },
   config = function(_, opts)
-    require("kanagawa").setup(opts) -- calling setup is optional
-    vim.cmd([[colorscheme kanagawa-dragon]])
+    require("dracula").setup(opts) -- calling setup is optional
+    vim.cmd([[colorscheme dracula]])
   end,
 }
