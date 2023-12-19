@@ -8,7 +8,7 @@ alias htb='sudo openvpn ~/.config/openvpn/lab_f0zy.ovpn'
 alias htb-season='sudo openvpn ~/.config/openvpn/competitive_f0zy.ovpn'
 alias fortress='sudo openvpn ~/.config/openvpn/fortresses_f0zy.ovpn'
 alias tryhackme='sudo openvpn ~/.config/openvpn/f0zy.ovpn'
-
+alias files='mkdir -p {recon,www,exploit,pivot,report} '
 #bugbounty
 alias root-domains='awk -F\/ 'FNR!=1 {print $1}' download_csv.csv | cut -d "," -f 1 > root.txt'
 

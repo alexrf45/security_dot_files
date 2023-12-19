@@ -7,18 +7,16 @@ alias tree-overview='tree -CDL 2'
 alias tree-1='tree -CL 2'
 alias lock='cmatrix -r'
 alias vim='nvim'
-alias commands='cat history'
+alias commands='cat $HOME/history'
+alias pass-gen='python3 ~/.config/scripts/password-gen.py'
+
 #rust binaries
-alias ls='lsd -la'
-alias cat='bat'
-alias speedtest='speedtest-rs'
+alias ls='lsd'
 alias webserver="miniserve -p 8001"
 
 #tmux
 alias t='tmux new -f ~/.tmux.conf -s $1'
 alias t-ctf='tmuxp load ~/.config/tmuxp/ctf.yaml'
-alias t-dev='tmuxp load ~/.config/tmuxp/dev.yaml'
-alias t-project='tmuxp load ~/.config/tmuxp/three-tier.yaml'
 
 #networking
 alias public='curl wtfismyip.com/text'

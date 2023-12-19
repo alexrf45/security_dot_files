@@ -16,16 +16,31 @@
     background_color = "#161414"
     background_darkness = 0.94
     background_type = transparent
-    cursor_shape = underline
+    cursor_shape = ibeam
     cursor_fg_color = "#000000"
     cursor_bg_color = "#aaaaaa"
     cursor_color_default = False
-    font = Iosevka Nerd Font Propo Bold Oblique 12
+    font = JetBrainsMonoNL Nerd Font Propo Ultra-Bold Italic 13
     foreground_color = "#d0d0d0"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
     palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+    use_system_font = False
+  [[Espresso]]
+    background_color = "#323232"
+    background_darkness = 0.94
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#aaaaaa"
+    cursor_color_default = False
+    font = JetBrainsMonoNL Nerd Font Propo Ultra-Bold Italic 13
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#353535:#d25252:#a5c261:#ffc66d:#6c99bb:#d197d9:#bed6ff:#eeeeec:#535353:#f00c0c:#c2e075:#e1e48b:#8ab7d9:#efb5f7:#dcf4ff:#ffffff"
     use_system_font = False
 [layouts]
   [[default]]

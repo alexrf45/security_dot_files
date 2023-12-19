@@ -160,6 +160,7 @@ netdiscover -i INTERFACE_NAME -r IP_RANGE/CIDR -p
 nfc-list
 nfc-scan-device -v
 ngrok authtoken AUTHTOKEN:::https://dashboard.ngrok.com/get-started/your-authtoken
+sudo nmap --data-length 6 -T3 -A -ttl 64 -oA $NAME-nmap/$NAME -p- $IP
 nmap --script 'smb-enum*' --script-args unsafe=1 -T5 192.168.10.10
 nmap --script broadcast-dhcp-discover
 nmap --script http-ntlm-info --script-args http-ntlm-info.root=/ews/ -p 443 mx.example.com
