@@ -3,18 +3,17 @@ windows:
   - window_name: local
     layout: tiled
     panes:
-      - 
-      - 
+      -
+      -
   - window_name: remote
     layout: tiled
     panes:
-      -  
+      -
   - window_name: notes
     layout: tiled
     panes:
-      -
-      - cd $HOME/sec-notes/notes/2_Lab/HackTheBox/ && clear
-  - window_name: vpn
+      - cd $HOME/sec-notes/notes/
+  - window_name: extra
     layout: tiled
     panes:
-      - htb
+      - 

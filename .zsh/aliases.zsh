@@ -16,7 +16,7 @@ alias webserver="miniserve -p 8001"
 
 #tmux
 alias t='tmux new -f ~/.tmux.conf -s $1'
-alias t-ctf='tmuxp load ~/.config/tmuxp/ctf.yaml'
+alias ctf='tmuxp load ~/.config/tmuxp/ctf.yaml'
 
 #networking
 alias public='curl wtfismyip.com/text'

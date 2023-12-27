@@ -8,9 +8,7 @@ alias htb='sudo openvpn ~/.config/openvpn/lab_f0zy.ovpn'
 alias htb-season='sudo openvpn ~/.config/openvpn/competitive_f0zy.ovpn'
 alias fortress='sudo openvpn ~/.config/openvpn/fortresses_f0zy.ovpn'
 alias tryhackme='sudo openvpn ~/.config/openvpn/f0zy.ovpn'
-alias files='mkdir -p {recon,www,exploit,pivot,report} '
-#bugbounty
-alias root-domains='awk -F\/ 'FNR!=1 {print $1}' download_csv.csv | cut -d "," -f 1 > root.txt'
+alias engagement='mkdir -p {recon,www,exploit,pivot,report} '
 
 #tools
 alias bfac='docker run -it --rm secsi/bfac --url $1'
@@ -20,4 +18,6 @@ alias bloodhound='docker-compose --env-file $HOME/ctf-repo/.env -f $HOME/.local/
 alias bloodhound-down='docker-compose --env-file $HOME/ctf-repo/.env -f $HOME/.local/tools/bloodhound-dev/docker-compose.yml down'
 alias cme='nxc'
 alias evil-winrm='docker run --rm -it oscarakaelvis/evil-winrm'
-
+alias port-scan='sudo nmap -sC -sV -p- $IP > scan.txt'
+alias udp-scan='sudo nmap -sU --top-ports 10 $IP -v > udp.scan.txt'
+alias stealth-scan='sudo nmap --data-length 6 -T3 -A -ttl 64 -p- $IP > stealth-scan.txt'
