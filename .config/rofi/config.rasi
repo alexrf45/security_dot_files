@@ -1,1 +1,2 @@
-@theme "tokyonight.rasi"
+//@theme "tokyonight.rasi"
+@theme "/usr/share/rofi/themes/arthur.rasi"
