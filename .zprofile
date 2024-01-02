@@ -11,7 +11,8 @@ export DRACULA_CUSTOM_VARIABLE=$AWS_VAULT
 export DRACULA_DISPLAY_NEW_LINE=1
 export DRACULA_ARROW_ICON="$ "
 
-
+export GOPATH=$HOME/.local/bin/go
+export GOROOT=$HOME/.local/bin/go/bin
 
 export EDITOR=nvim
 export TERM='xterm-256color'

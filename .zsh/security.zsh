@@ -8,6 +8,7 @@ alias htb='sudo openvpn ~/.config/openvpn/lab_f0zy.ovpn'
 alias htb-season='sudo openvpn ~/.config/openvpn/competitive_f0zy.ovpn'
 alias fortress='sudo openvpn ~/.config/openvpn/fortresses_f0zy.ovpn'
 alias tryhackme='sudo openvpn ~/.config/openvpn/f0zy.ovpn'
+alias echo-ctf='sudo openvpn ~/.config/openvpn/echoCTF.ovpn'
 alias engagement='mkdir -p {recon,www,exploit,pivot,report} '
 
 #tools

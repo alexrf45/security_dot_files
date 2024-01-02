@@ -165,12 +165,12 @@ mode "resize" {
  }
 
 bar {
-    mode hide
+    mode dock
     hidden_state hide
     modifier mod4
     status_command i3blocks -c ~/.config/i3/i3blocks.conf
         i3bar_command i3bar -t
-        position top 
+        position bottom 
         height 26
         font pango:FiraCode Nerd Font Mono 9
         colors {
