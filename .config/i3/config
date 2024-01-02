@@ -3,9 +3,8 @@ set $mod mod4
 #font pango:RobotoMono Nerd Font Regular 9
 
 #font pango:DejaVu Sans Mono 0
-#font pango:Ubuntu Regular 14
-font pango:FiraCode Nerd Font Propo Bold Italic 9
-
+font pango:Ubuntu Regular 10
+#font pango:FiraCode Nerd Font Propo Bold Italic 9
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 #exec --no-startup-id nm-applet
@@ -172,7 +171,7 @@ bar {
         i3bar_command i3bar -t
         position bottom 
         height 26
-        font pango:FiraCode Nerd Font Mono 9
+        font pango:Ubuntu Regular 10
         colors {
             statusline #EEEEEE
             background #00000000
@@ -187,8 +186,9 @@ bindsym $mod+r mode "resize"
 for_window [class="^.*"] border pixel 0
 gaps inner 6
 gaps outer 4
-
-
+for_window [class="terminator"] move to workspace $ws1
+for_window [class="brave"] move to workspace $ws2
+for_window [class="obsidian"] move to workspace $ws3
 
 exec_always --no-startup-id pulseaudio --start
 
