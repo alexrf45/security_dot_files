@@ -26,14 +26,14 @@ bindkey -v
 #source aliases and env
 source "$HOME/.zprofile"
 
-for file in $HOME/.zsh/*.zsh; do
+for file in $HOME/.zsh/*; do
     source "$file"
 done
 
-for file in $HOME/.zsh/*.sh; do
-    source "$file"
-done
-
+# for file in $HOME/.zsh/*.sh; do
+#     source "$file"
+# done
+#
 #logging
 precmd() { eval 'if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history -f)" >> ~/.logs/zsh-history-$(date "+%Y-%m-%d").log; fi' }
 
